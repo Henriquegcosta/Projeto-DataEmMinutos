@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:background="#F3D285"
+    android:background="@color/bgColor"
     android:gravity="center_horizontal"
     android:padding="16dp">
 
@@ -45,8 +45,8 @@
         android:layout_height="wrap_content"
         android:text="Selecione a data"
         android:textSize="18sp"
-        android:textColor="@color/black"
-        android:backgroundTint="#D1D1D1"/>
+        android:textColor="#929292"
+        android:backgroundTint="#FEFEFE"/>
 
     <TextView
         android:id="@+id/tvSelectedDate"
